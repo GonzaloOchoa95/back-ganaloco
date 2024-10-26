@@ -1,5 +1,5 @@
-const fs = require('fs/promises');
-const path = require('path');
+//const fs = require('fs/promises');
+//const path = require('path');
 const User = require('../../db/user')
 const modeCodigo = require('../../db/codigo')
 const regisCodigo = require('../../db/registroCodigo')
@@ -9,7 +9,7 @@ const bcrypt = require('bcrypt');
 
 const mongodb = require('../../db/mongo')
 
-const signToken = _id => JsonWebTokenError.sign({_id}, 'mi-string-secreto')
+//const signToken = _id => JsonWebTokenError.sign({_id}, 'mi-string-secreto')
 
 
 

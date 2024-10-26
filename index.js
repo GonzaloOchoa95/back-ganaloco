@@ -17,6 +17,10 @@ app.use(express.json())
 
 app.use(urlencoded({extended: true}))
 
+app.get('/', async (req, res) => {
+    res.send("Prueba que funciona");
+  });
+
 app.use(cors())
 app.use('/v1/signos', router);
 

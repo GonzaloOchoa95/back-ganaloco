@@ -1,5 +1,5 @@
-//const fs = require('fs/promises');
-//const path = require('path');
+const fs = require('fs/promises');
+const path = require('path');
 const User = require('../../db/user')
 const modeCodigo = require('../../db/codigo')
 const regisCodigo = require('../../db/registroCodigo')

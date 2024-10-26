@@ -5,7 +5,7 @@ const modeCodigo = require('../../db/codigo')
 const regisCodigo = require('../../db/registroCodigo')
 const moment = require('moment-timezone');
 
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 
 const mongodb = require('../../db/mongo')
 
